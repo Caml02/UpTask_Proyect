@@ -1,0 +1,18 @@
+{
+    "name": "crist/up-task-proyect",
+    "description": "MVC_SASS_PHP",
+    "autoload": {
+        "psr-4": {
+            "MVC\\" : "./",
+            "Controllers\\" : "./controllers",
+            "Model\\" : "./models"
+        }
+    },
+    "authors": [
+        {
+            "name": "Cristian Morales",
+            "email": "cristianmorales3006@gmail.com"
+        }
+    ],
+    "require": {}
+}
