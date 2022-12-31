@@ -1,6 +1,6 @@
 <?php
 
-$db = mysqli_connect('localhost', 'root', 'sAurio15!', 'uptaskdb');
+$db = mysqli_connect('localhost', 'root', '', 'uptask_db');
 
 
 if (!$db) {

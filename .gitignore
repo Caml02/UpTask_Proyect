@@ -2,7 +2,8 @@ src/
 vendor/
 .env/
 node_modules/
-appsalon_mvc.sql
+uptask_db.sql
 gulpfile.js
 package.json
 package-lock.json
+

@@ -1,16 +1,19 @@
 <div class="contenedor crear">
     <?php include_once __DIR__ .'/../templates/nombre-sitio.php'; ?>
-
     <div class="contenedor-sm">
         <p class="descripcion-pagina">Crea tu cuenta </p>
+
+        <?php include_once __DIR__ .'/../templates/alertas.php'; ?>
+
     
-        <form action="/" class="formulario" method="POST">
+        <form action="/crear" class="formulario" method="POST">
                 <div class="campo">
                     <label for="nombre">Nombre</label>
                     <input type="text"
                     id="nombre"
                     placeholder="Escribe tu nombre"
-                    name="nombre">
+                    name="nombre"
+                    value="<?php echo $usuario->nombre; ?>">
                 </div>
         
             <div class="campo">
@@ -18,7 +21,8 @@
                 <input type="email"
                 id="email"
                 placeholder="Email"
-                name="email">
+                name="email"
+                value="<?php echo $email->email; ?>">
             </div>
 
             <div class="campo">
